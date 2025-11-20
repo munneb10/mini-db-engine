@@ -1,0 +1,25 @@
+{
+  "name": "mini-db-bptree",
+  "version": "1.0.0",
+  "description": "A tiny database engine with a B+ tree index and file-backed storage, written in TypeScript.",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli.ts",
+    "dev": "ts-node src/cli.ts"
+  },
+  "keywords": [
+    "database",
+    "bplus-tree",
+    "storage-engine",
+    "typescript",
+    "learning"
+  ],
+  "author": "Taha Shahid Alvi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
